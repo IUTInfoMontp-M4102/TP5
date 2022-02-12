@@ -66,7 +66,7 @@ Comme dans l’exercice précédent, les sémaphores seront gérés par les mét
 
 3. Écrivez la classe `ClientQR` qui implémente une tâche qui dépose successivement 6 requêtes dans la boîte aux lettres. Après chaque dépot d’une requête, il faut récupérer et afficher la réponse du serveur. Ajoutez un délai entre la réception d’une réponse et l’envoi de la requête suivante.
 
-4. Écrivez la classe `ServeurQR` qui exécute une boucle infinie dont chaque itération consiste à lire une requête postée dans la boîte aux lettres, attendre un délai aléatoire pour simuler le temps de traitement, puis déposer la réponse à la requête. Dans cet exercice, la réponse à un message est simplement le message préfixé de la chaîne « Serveur $i$, Réponse: » où $i$ est le numéro du serveur.
+4. Écrivez la classe `ServeurQR` qui exécute une boucle infinie dont chaque itération consiste à lire une requête postée dans la boîte aux lettres, attendre un délai aléatoire pour simuler le temps de traitement, puis déposer la réponse à la requête. Dans cet exercice, la réponse à un message est simplement le message préfixé de la chaîne « Serveur *i*, Réponse: » où *i* est le numéro du serveur.
 
 5. Testez votre programme en ne lançant initialement qu’un seul `ClientQR`, et un seul `ServeurQR`. Puis lancez deux `ServeurQR` et trois `ClientQR`.
 
